@@ -1,0 +1,139 @@
+
+/*==== Índice ====
+
+1 - Imports
+
+2 - Variables
+
+3 - Typographic
+
+4 - Main classes
+
+==================*/
+
+
+/*=============================================
+=            Imports            =
+=============================================*/
+
+@import 'normalize';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/*=====  End of Imports  ======*/
+
+
+/*=============================================
+=            Varibles           =
+=============================================*/
+
+
+/* Colors*/
+
+$dark-blue: #1B82A8;
+
+$light-blue: #A8E6CF;
+
+$magenta-pink: #FE346E;
+
+$dark-grey: #474646;
+
+$middle-grey: #8F8F8F;
+
+$light-grey: #F8F8F8;
+
+
+/* Main Font */
+
+$base-font: 'Noto Sans',
+sans-serif;
+
+
+/* Paddins */
+
+$paddin-little: 0.625rem;     //10px
+$paddin-middle: 0.938rem;    //15px
+$paddin-large: 1.25rem;     //20px  
+$paddin-X-large: 1.875rem; //30px
+
+
+/* Margins */
+
+$margin-little: 0.625rem;     //10px
+$margin-middle: 0.938rem;    //15px
+$margin-large: 1.25rem;     //20px  
+$margin-X-large: 1.875rem; //30px
+
+
+/*=====  End of Section variables  ======*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $base-font;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+
+/*=============================================
+=            Typographic            =
+=============================================*/
+
+h1 {
+    font-size: 2.063rem; //33px
+    line-height: 3.188rem; //51px
+    color: $dark-blue;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.625rem; //26px
+    line-height: 1.688rem; //27px
+    color: $dark-blue;
+    font-weight: 400;
+    padding: $paddin-middle;
+}
+
+h3 {
+    font-size: 1.25rem; //20px
+    line-height: 1.625rem; //26px
+    font-weight: normal;
+    color: $dark-grey;
+    padding: $paddin-middle;
+}
+
+p {
+    font-size: 1rem; //16px
+    line-height: 1.625rem; //26px 
+    color: $dark-grey;
+    padding: $paddin-middle;
+}
+
+h4 {
+    font-size: 0.813rem; //13px
+    line-height: 1.375rem; //17px
+    font-weight: normal;
+    color: $middle-grey;
+    
+}
+
+/*=====  End of Typographic  ======*/
+
+
+
+/*=============================================
+=            Main classes            =
+=============================================*/
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*=====  End of Main classes  ======*/
