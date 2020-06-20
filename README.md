@@ -9,5 +9,5 @@
 - CSS3
 - SASS
 
-### Colaboradores
+## Colaboradores
 Este projeto foi feito em conjunto com o desenvolvedores [Felipe Maia](https://github.com/f-maia) e [Diego]()
