@@ -383,7 +383,7 @@ html {
 }
 
 .container {
-  width: 90%;
+  width: 90vw;
   margin: 0 auto;
 }
 
@@ -416,11 +416,11 @@ h3 {
 
 p {
   margin: 0 auto;
+  padding: 0.938rem;
+  width: 90%;
   font-size: 1rem;
   line-height: 1.625rem;
   color: #474646;
-  padding: 0.938rem;
-  width: 60%;
 }
 
 h4 {
