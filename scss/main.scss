@@ -133,10 +133,12 @@ h3 {
 }
 
 p {
+    margin: 0 auto;
     font-size: 1rem; //16px
     line-height: 1.625rem; //26px 
     color: $dark-grey;
     padding: $paddin-middle;
+    width: 60%;
 }
 
 h4 {
