@@ -5,9 +5,11 @@
 
 2 - Variables
 
-3 - Typographic
+3 - Main Styles
 
-4 - Main classes
+5 - Typographic
+
+6 - Icon Styles
 
 ==================*/
 /*=============================================
@@ -362,7 +364,11 @@ template {
 /* Main Font */
 /* Paddins */
 /* Margins */
+/* Animation */
 /*=====  End of Section variables  ======*/
+/*=============================================
+=            Main Styles            =
+=============================================*/
 * {
   margin: 0;
   padding: 0;
@@ -376,6 +382,12 @@ html {
   text-align: center;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*=====  End of Main classes  ======*/
 /*=============================================
 =            Typographic            =
 =============================================*/
@@ -418,11 +430,25 @@ h4 {
 
 /*=====  End of Typographic  ======*/
 /*=============================================
-=            Main classes            =
+=            Icons Styles            =
 =============================================*/
-.container {
-  width: 90%;
+.icon-set {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-/*=====  End of Main classes  ======*/
+.jam {
+  display: block;
+  font-size: 2rem;
+  color: #1B82A8;
+  transition: all 0.3s linear;
+  margin: 1.25rem;
+}
+.jam:hover {
+  transform: scale(1.3);
+  color: #FE346E;
+  transition: all 0.3s linear;
+}
+
+/*=====  End of Icons Styles  ======*/
