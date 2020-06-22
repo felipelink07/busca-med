@@ -388,7 +388,7 @@ html {
   justify-content: space-around;
   align-items: center;
   width: 90vw;
-  height: 812px;
+  height: 100vh;
   margin: 0 auto;
 }
 
@@ -469,11 +469,8 @@ h4 {
 =            Login page Styles            =
 =============================================*/
 img {
-  width: 210px;
-  height: 261px;
-  display: block;
-  box-sizing: border-box;
-  margin-top: 0px;
+  width: 126px;
+  height: 217px;
 }
 
 .login-form {
@@ -482,7 +479,7 @@ img {
 .login-form div {
   display: flex;
   flex-flow: column;
-  margin: 15px 0;
+  margin: 30px 0;
 }
 .login-form div label {
   color: #8F8F8F;
@@ -503,7 +500,7 @@ img {
   background-color: #1B82A8;
   color: white;
   border-radius: 5px;
-  margin: 50px 0 30px 0;
+  margin: 50px 0 0 0;
   outline: none;
   cursor: pointer;
 }

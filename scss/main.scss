@@ -102,7 +102,7 @@ html {
     justify-content: space-around;
     align-items: center;
     width: 90vw;
-    height: 812px;
+    height: 100vh;
     margin: 0 auto;
 }
 
@@ -197,11 +197,8 @@ h4 {
 =============================================*/
 
 img{
-    width: 210px;
-    height: 261px;
-    display: block;
-    box-sizing: border-box;
-    margin-top: 0px ;   
+    width: 126px;
+    height: 217px;
 }
 
 
@@ -210,7 +207,7 @@ img{
     div{
         display: flex;
         flex-flow: column;
-        margin: 15px 0;
+        margin: 30px 0;
         
        
         label{
@@ -239,7 +236,7 @@ img{
     background-color: $dark-blue;
     color: white;
     border-radius: 5px;
-    margin: 50px 0 30px 0;
+    margin: 50px 0 0 0;
     outline: none;
     cursor: pointer;
 }
