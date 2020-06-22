@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,31 @@
      <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
      <!--Main CSS Link-->
      <link rel="stylesheet" href="css/main.css">
-     <link rel="stylesheet" href="css/style-form-pages.css">
+     <link rel="stylesheet" href="css/login.css">
      <title>Login Busca MED</title>
 </head>
-<body class="flex-container">
-     <h1>Busca MED</h1>
-     <img src="img/logo.png">
 
-     <form method="POST">
-          <div>
-          <label for="nome">Nome</label>
-          <br />
-          <input type="text" id="nome" required>
+<body>
+     <div class="container">
+          <img src="/img/logo.png" alt="">
+          <form class="login-form" method="POST">
+               <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+               </div>
+               <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" required>
+               </div>
+               <input class="btn-primary" type="submit" value="Entrar">
+          </form>
+
+          <div class="ajuda">
+               <p>Não tem conta?<a href="#">Crie uma agora</a></p>
+               <a href="#">Precisa de ajuda?</a>
           </div>
 
-          <div>
-          <label for="telefone">Telefone</label>
-          <br />
-          <input type="text" id="telefone" required>
-          </div>
-
-          <input type="submit" value="Entrar">
-     </form>
-
-     <div class="criarConta">         
-          <p>Não tem conta? </p>
-          <a href="#">Crie uma agora</a>
      </div>
-     <a href="#">Precisa de ajuda?</a>
 </body>
+
 </html>

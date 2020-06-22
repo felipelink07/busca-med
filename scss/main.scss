@@ -97,7 +97,12 @@ html {
 
 
 .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
     width: 90vw;
+    height: 812px;
     margin: 0 auto;
 }
 
@@ -185,3 +190,57 @@ h4 {
     display: flex;
     flex-direction: row;
 }
+
+
+/*=============================================
+=            Login page Styles            =
+=============================================*/
+
+.login-form{
+    width: 90%;
+    div{
+        display: flex;
+        flex-flow: column;
+        margin: 50px 0;
+        
+       
+        label{
+            color: $middle-grey;
+            text-align: left;
+        }
+        input{
+           margin: $margin-little 0;
+           padding: $paddin-little;
+           border: none;
+           border-bottom: 2px solid $middle-grey;
+           outline: none;
+       }
+
+    }
+
+}
+
+
+
+.btn-primary{
+    width: 100%;
+    padding: $paddin-middle;
+    border: none;
+    background-color: $dark-blue;
+    color: white;
+    border-radius: 5px;
+    margin: 70px 0 50px 0;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.ajuda{
+    width: 90%;
+    a{
+        text-decoration: none;
+        color: $dark-blue;
+    }
+}
+/*=====  End of Login page Styles  ======*/
+
