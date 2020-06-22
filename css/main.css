@@ -396,6 +396,7 @@ h1 {
   line-height: 3.188rem;
   color: #1B82A8;
   font-weight: 400;
+  display: none;
 }
 
 h2 {
@@ -454,3 +455,7 @@ h4 {
 }
 
 /*=====  End of Icons Styles  ======*/
+.criarConta {
+  display: flex;
+  flex-direction: row;
+}

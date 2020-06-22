@@ -114,6 +114,7 @@ h1 {
     line-height: 3.188rem; //51px
     color: $dark-blue;
     font-weight: 400;
+    display: none;
 }
 
 h2 {
@@ -180,5 +181,7 @@ h4 {
 
 /*=====  End of Icons Styles  ======*/
 
-
-
+.criarConta {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,19 @@
+form * {
+     margin: 5px 0;
+}
+
+form input, form select {
+     width: 80%;
+     text-align: left;
+}
+
+form input[type="submit"] {
+     background-color: #1B82A8;
+     border: none;
+     border-radius: 0.3em;
+     color: white;
+     text-align: center;
+     font-weight: bolder;
+     font-size: 1.2rem;
+     padding: 10px 0 10px 0;
+}
