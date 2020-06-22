@@ -9,4 +9,4 @@
 - SASS
 
 ## Colaboradores
-Este projeto foi feito em conjunto com o desenvolvedores [Felipe Maia](https://github.com/f-maia) e [Diego]()
+Este projeto foi feito em conjunto com o desenvolvedores [Felipe Maia](https://github.com/f-maia) e [Diego Freitas](https://github.com/died-ego)
