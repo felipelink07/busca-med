@@ -245,11 +245,22 @@ img{
 
 
 .ajuda{
+    margin-bottom: 30px;
     width: 90%;
     a{
         text-decoration: none;
         color: $dark-blue;
         padding: 0 5px;
+    }
+}
+
+.btn{
+    margin-top: 40px;
+    box-shadow: none;
+    background-color: $dark-blue;
+    &:hover{
+        box-shadow: none;
+        background-color: $dark-blue;
     }
 }
 /*=====  End of Login page Styles  ======*/

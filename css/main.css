@@ -508,12 +508,23 @@ img {
 }
 
 .ajuda {
+  margin-bottom: 30px;
   width: 90%;
 }
 .ajuda a {
   text-decoration: none;
   color: #1B82A8;
   padding: 0 5px;
+}
+
+.btn {
+  margin-top: 40px;
+  box-shadow: none;
+  background-color: #1B82A8;
+}
+.btn:hover {
+  box-shadow: none;
+  background-color: #1B82A8;
 }
 
 /*=====  End of Login page Styles  ======*/
