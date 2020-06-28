@@ -264,9 +264,11 @@ img{
         background-color: $dark-blue;
     }
     a{
+        display: block;
+        width: 100%;
         color: white;
+     
     }
 }
 /*=====  End of Login page Styles  ======*/
-
 

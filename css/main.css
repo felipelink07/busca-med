@@ -528,6 +528,8 @@ img {
   background-color: #1B82A8;
 }
 .btn a {
+  display: block;
+  width: 100%;
   color: white;
 }
 
