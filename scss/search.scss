@@ -1,3 +1,112 @@
+
+/*=============================================
+=            Varibles           =
+=============================================*/
+
+
+/* Colors*/
+
+$dark-blue: #1B82A8;
+
+$light-blue: #A8E6CF;
+
+$magenta-pink: #FE346E;
+
+$dark-grey: #474646;
+
+$middle-grey: #8F8F8F;
+
+$light-grey: #F8F8F8;
+
+
+/* Main Font */
+
+$base-font: 'Noto Sans',
+sans-serif;
+
+
+/* Paddins */
+
+$paddin-little: 0.625rem;     //10px
+$paddin-middle: 0.938rem;    //15px
+$paddin-large: 1.25rem;     //20px  
+$paddin-X-large: 1.875rem; //30px
+
+
+/* Margins */
+
+$margin-little: 0.625rem;     //10px
+$margin-middle: 0.938rem;    //15px
+$margin-large: 1.25rem;     //20px  
+$margin-X-large: 1.875rem; //30px
+
+
+/* Animation */
+
+$icon-transition: all 0.3s linear;
+
+
+
+/*=====  End of Section variables  ======*/
+
+
+/*=============================================
+=            Typographic            =
+=============================================*/
+
+h1 {
+    font-size: 2.063rem; //33px
+    line-height: 3.188rem; //51px
+    color: $dark-blue;
+    font-weight: 400;
+    display: none;
+}
+
+h2 {
+    font-size: 1.625rem; //26px
+    line-height: 2.688rem; //27px
+    color: $dark-blue;
+    font-weight: 400;
+    padding: $paddin-middle;
+}
+
+h3 {
+    font-size: 1.25rem; //20px
+    line-height: 1.625rem; //26px
+    font-weight: normal;
+    color: $dark-grey;
+    padding: $paddin-middle;
+}
+
+p {
+    margin: 0 auto;
+    padding: $paddin-middle;
+    width: 90%;
+    font-size: 1rem; //16px
+    line-height: 1.625rem; //26px 
+    color: $dark-grey;
+    
+    
+}
+
+h4 {
+    font-size: 0.813rem; //13px
+    line-height: 1.375rem; //17px
+    font-weight: normal;
+    color: $middle-grey;
+    
+}
+
+/*=====  End of Typographic  ======*/
+
+
+
+header{
+    width: 100%;
+    height: 120px;
+    box-shadow: 2px 10px 15px #f4f4f4;
+}
+
 .container {
     display: flex;
     flex-flow: column;
@@ -13,11 +122,31 @@
 }
 
 .search{
-   margin-top: 30px;
-   input[type="search"]{
-       width: 100%;
-       padding: 10px 0;
-       
-   }
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #f9f9f9;
+    input[type="search"]{
+        background-color: none;
+        border-bottom: none;
+    }
     
+    input[type="search"]:focus{
+        color: red;
+    }
+}
+
+.map-img{
+    opacity: 30%;
+    width: 256px;
+    height: 256px;
+    background-image: url('/img/location.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+h2{
+    width: 70%;
+    font-weight: 700;
+    opacity: 50%;
 }
