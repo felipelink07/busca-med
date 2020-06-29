@@ -95,7 +95,7 @@ header {
 
 .map-img {
   box-sizing: border-box;
-  margin-top: 80px;
+  margin-top: 50px;
   width: 156px;
   height: 156px;
   background-image: url("/img/location.png");
